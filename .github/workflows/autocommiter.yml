@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           COMMIT_MSG: |
-            SCRAPE: scraped Data
+            COMMITED SOMETHING VERY IMPORTANT
         run: |
           rm -rf geckodriver*
           git config user.email "actions@github"
